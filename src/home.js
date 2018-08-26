@@ -9,8 +9,8 @@ class Home extends React.Component {
     time: 20,
     errors: {
       task: false,
-      time: false
-    }
+      time: false,
+    },
   };
 
   render() {
@@ -83,8 +83,8 @@ class Home extends React.Component {
       this.setState({
         errors: {
           task: !task,
-          time: !time
-        }
+          time: !time,
+        },
       });
 
       return;
@@ -92,23 +92,23 @@ class Home extends React.Component {
       this.setState({
         errors: {
           task: false,
-          time: false
-        }
+          time: false,
+        },
       });
     }
 
     this.setState({
       isActive: true,
-      countdownTimer: time
+      countdownTimer: time,
     });
 
     // keep decementing time by minutes once task starts
     setInterval(
       () =>
         this.setState({
-          countdownTimer: this.state.countdownTimer - 1
+          countdownTimer: this.state.countdownTimer - 1,
         }),
-      1000 * 60
+      1000 * 60,
     );
   };
 
@@ -116,7 +116,7 @@ class Home extends React.Component {
     this.setState({
       isActive: false,
       task: '',
-      time: 20
+      time: 20,
     });
   };
 }

@@ -1,36 +1,36 @@
 {
-	"name": "memodoro",
-	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
-	"scripts": {
-		"start": "webpack-dev-server --open",
-		"lint": "eslint src/**/*.js",
-		"lint:fix": "eslint src/**/*.js --fix",
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
-	"dependencies": {
-		"classnames": "2.2.6",
-		"emotion": "9.2.6",
-		"react": "16.4.2",
-		"react-dom": "16.4.2"
-	},
-	"devDependencies": {
-		"babel-core": "6.26.3",
-		"babel-eslint": "8.2.6",
-		"babel-loader": "7.1.5",
-		"babel-plugin-transform-class-properties": "6.24.1",
-		"babel-preset-env": "1.7.0",
-		"babel-preset-react": "6.24.1",
-		"eslint": "5.4.0",
-		"eslint-plugin-prettier": "2.6.2",
-		"eslint-plugin-react": "7.11.1",
-		"prettier": "1.14.2",
-		"webpack": "4.17.1",
-		"webpack-cli": "3.1.0",
-		"webpack-dev-server": "3.1.5"
-	}
+  "name": "memodoro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "lint": "eslint src/**/*.js",
+    "lint:fix": "eslint src/**/*.js --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "classnames": "2.2.6",
+    "emotion": "9.2.6",
+    "react": "16.4.2",
+    "react-dom": "16.4.2"
+  },
+  "devDependencies": {
+    "babel-core": "6.26.3",
+    "babel-eslint": "8.2.6",
+    "babel-loader": "7.1.5",
+    "babel-plugin-transform-class-properties": "6.24.1",
+    "babel-preset-env": "1.7.0",
+    "babel-preset-react": "6.24.1",
+    "eslint": "5.4.0",
+    "eslint-plugin-prettier": "2.6.2",
+    "eslint-plugin-react": "7.11.1",
+    "prettier": "1.14.2",
+    "webpack": "4.17.1",
+    "webpack-cli": "3.1.0",
+    "webpack-dev-server": "3.1.5"
+  }
 }
